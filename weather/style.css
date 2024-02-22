@@ -1,0 +1,79 @@
+
+/* Basic styling for the weather app */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+.card {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1ddef3;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.search input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.search button {
+ margin-left: 3px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+   background:white;
+    cursor: pointer;
+}
+.search button img{
+     max-width: 10px;
+    margin:0 auto;
+}
+
+
+
+.weather-icon {
+    max-width: 60px;
+  margin: 0 auto 0;
+  display: block;
+  padding-bottom: 10px;
+}  
+
+
+.temp {
+    font-size: 26px;
+    padding-bottom: 2px;
+  width: 50px;
+   display: block;
+   margin: 0 auto 0;
+}
+.city {
+    font-size: 18px;
+    width: 60px;
+   display: block;
+   margin: 0 auto 0;
+}
+.detail {
+    display: flex;
+    justify-content: space-evenly;
+    background: #72d9ed;
+}
+.col {
+    display: flex;
+    align-items: center;
+}
+.col img {
+    max-width: 20px;
+    margin:0 auto;
+    border-radius: 100%;
+    background: #1ddef3;
+}
+.humidity, .wind {
+    font-size: 14px;
+}
